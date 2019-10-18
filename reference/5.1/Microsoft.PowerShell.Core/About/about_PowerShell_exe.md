@@ -138,8 +138,8 @@ because it has no special meaning to the current **cmd.exe** shell. The
 **Command** parameter, since there it will be interpreted as PowerShell code.
 
 When the value of **File** is a file path, **File** _must_ be the last
-parameter specified because any characters typed after the command are
-interpreted as the command arguments.
+parameter specified because any characters typed after the file path are
+interpreted as script arguments.
 
 You can include the script parameters and values in the value of the **File**
 parameter. For example: `-File .\Get-Script.ps1 -Domain Central`
